@@ -36,6 +36,10 @@ fruits = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 
 #11. Wypisz wielkość tablicy 'fruits'
 
-#12. Stwórz funkcję która wypisuje podany w parametrze tekst a następnie ją wywołaj
+#12. Wypisz wszystkie owoce za pomocą pętli 'for'
+
+#13. Stwórz funkcję która wypisuje podany w parametrze tekst a następnie ją wywołaj
+
+
 
 
