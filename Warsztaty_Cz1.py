@@ -123,3 +123,45 @@ b = 1
 c = 3
 if a > b and c > a:
   print("Oba warunki są prawdziwe")
+
+
+# Zadania
+
+# Dane do zadań
+
+lista_imion = ["Filip", "Damian", "Jan", "Jadwiga", "Zygmunt"]
+liczba_1 = 2
+liczba_2 = 10
+
+# 1. Wypisz drugie imię z listy 'lista_imion'
+
+# 2. Zmień imię Zygmunt na Ilona
+
+# 3. Dodaj nowe imię 'Pawel' do listy (na koniec listy)
+
+# 4. Dodaj nowe imię do list 'Agata' jako drugie
+
+# 5. Usuń z listy imię Jadwiga
+
+# 6. Wypisz ilość imion w liście (uzywając do tego odpowiedniej metody)
+
+# 7. Pomnóz dwie zmienne: liczba_1 oraz liczba_2 i wypisz
+
+# 8. Sprawdź uzywając warunków if/else która zmienna: liczba_1 oraz liczba_2 jest większa i wypisz odpowiedni tekst na ekranie
+
+# 9. Sprawdź czy na liście imion znajduje się imię 'Jan' i wypisz odpowiedni komunikat
+
+# 10. Sprawdź czy na liście imion znajduje się imię 'Jan', jezeli tak to sprawdź czy liczba_2 jest większa od liczba_1, jezeli tak to wypisz na ekran drugie i trzecie imię z listy imion
+
+# 11. Zmień typ liczba_1 na string a następnie wypisz na ekran
+
+# 12. Zmień typ liczba_2 na float i dodaj do niej liczbę 24.5 i wypisz na ekran
+
+# 13. Wypisz tekst na ekran: 'Wartość liczby_2 to: [tutaj ma się pojawić wartość ze zmiennej]'
+
+# 14. Sprawdź czy liczba_2 jest większa od liczba_1 LUB lista imion zawiera imię 'Zygmunt' i wypisz na ekranie odpowiedni komunikat.
+
+# 15. * Stwórz nową listę która zawiera 5 elementów losowo wybranych cyfr a następnie dodaj wszystkie elementy do siebie i wypisz na ekranie 
+# (tak aby mozna było dynamicznie rozszerzeć wielkość tablicy i zeby suma się liczyła za kazdym razem poprawnie)
+
+# 16. * Przeiteruj po wszystkich elementach stworzonej listy w pkt 15 i wypisz je na ekran podnosząc kazdą wartość do potęgi 2
