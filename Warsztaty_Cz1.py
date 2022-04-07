@@ -134,34 +134,70 @@ liczba_1 = 2
 liczba_2 = 10
 
 # 1. Wypisz drugie imię z listy 'lista_imion'
+print(lista_imion[1])
 
 # 2. Zmień imię Zygmunt na Ilona
+lista_imion[4] = "Ilona"
 
 # 3. Dodaj nowe imię 'Pawel' do listy (na koniec listy)
+lista_imion.append("Pawel")
 
 # 4. Dodaj nowe imię do list 'Agata' jako drugie
+lista_imion.insert(1, "Agata")
 
 # 5. Usuń z listy imię Jadwiga
+lista_imion.remove("Jadwiga")
 
 # 6. Wypisz ilość imion w liście (uzywając do tego odpowiedniej metody)
+print(len(lista_imion))
 
 # 7. Pomnóz dwie zmienne: liczba_1 oraz liczba_2 i wypisz
+print(liczba_1 * liczba_2)
 
 # 8. Sprawdź uzywając warunków if/else która zmienna: liczba_1 oraz liczba_2 jest większa i wypisz odpowiedni tekst na ekranie
+if liczba_1>liczba_2:
+    print("Liczba_1 jest większa od liczba_2")
+else:
+    print("Liczba_2 jest większa od Liczba_1")
 
 # 9. Sprawdź czy na liście imion znajduje się imię 'Jan' i wypisz odpowiedni komunikat
+if ["Jan"]:
+    print("Na liście jest imię Jan")
+else:
+    print("Na liscie nie ma imienia Jan")
 
 # 10. Sprawdź czy na liście imion znajduje się imię 'Jan', jezeli tak to sprawdź czy liczba_2 jest większa od liczba_1, jezeli tak to wypisz na ekran drugie i trzecie imię z listy imion
+if ["Jan"]:
+    if liczba_2 > liczba_1:
+        print(lista_imion[1:3] )
+    else:
+        print("Liczba_2 mniejsza niż liczba_1")
+else:
+    print("Na liście nie ma imienia Jan")
 
 # 11. Zmień typ liczba_1 na string a następnie wypisz na ekran
+print(str(liczba_1))
 
 # 12. Zmień typ liczba_2 na float i dodaj do niej liczbę 24.5 i wypisz na ekran
+print(float(liczba_2) + 24.5)
 
 # 13. Wypisz tekst na ekran: 'Wartość liczby_2 to: [tutaj ma się pojawić wartość ze zmiennej]'
+print("Wartosc liczby_2 to:" f'{liczba_2}')
 
 # 14. Sprawdź czy liczba_2 jest większa od liczba_1 LUB lista imion zawiera imię 'Zygmunt' i wypisz na ekranie odpowiedni komunikat.
+if liczba_2 > liczba_1 or lista_imion["Zygmunt"]:
+    print("Liczba_2 jest większa od liczba_1 lub tablica zawiera imię Zygmunt")
+else:
+    print("liczba_2 jest mniejsza od liczba_1 albo tablica nie zawiera imienia Zygmunt")
 
 # 15. * Stwórz nową listę która zawiera 5 elementów losowo wybranych cyfr a następnie dodaj wszystkie elementy do siebie i wypisz na ekranie 
 # (tak aby mozna było dynamicznie rozszerzeć wielkość tablicy i zeby suma się liczyła za kazdym razem poprawnie)
+lista_2 = [5, 28, 9, 57, 68,]
+
+print(sum(lista_2[:]))
 
 # 16. * Przeiteruj po wszystkich elementach stworzonej listy w pkt 15 i wypisz je na ekran podnosząc kazdą wartość do potęgi 2
+i = 0
+for i in lista_2:
+    potega = i**2
+    print(potega)
