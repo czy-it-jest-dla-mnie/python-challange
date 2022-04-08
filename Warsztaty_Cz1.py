@@ -209,7 +209,7 @@ ile_cyfr=input()
 int_cyfr=int(ile_cyfr)
 lista_cyfr=[]
 
-if (len(lista_cyfr)) != int_cyfr:
+if (len(lista_cyfr)) != int_cyfr: #warto dodać warunek, który uniemożliwi wykonywanie pętli w nieskończoność przy >int_cyfr
   for _ in range(int_cyfr): 
       (lista_cyfr.append(random.randint(1,9)))
 print('Lista cyfr to:')
