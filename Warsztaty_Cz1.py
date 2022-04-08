@@ -188,7 +188,7 @@ print(string_1)
 
 # 12. Zmień typ liczba_2 na float i dodaj do niej liczbę 24.5 i wypisz na ekran
 
-float_2=float(liczba_2)
+float_2 = float(liczba_2)
 print(float_2+24.5)
 
 # 13. Wypisz tekst na ekran: 'Wartość liczby_2 to: [tutaj ma się pojawić wartość ze zmiennej]'
