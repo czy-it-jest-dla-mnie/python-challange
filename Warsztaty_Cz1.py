@@ -164,6 +164,8 @@ print(liczba_1*liczba_2)
 
 if liczba_1>liczba_2:
   print('Liczba 1 jest większa od liczby 2')
+elif liczba_1=liczba_2:
+  print('Liczba 1 jest równa liczbie 2')
 else:
   print('Liczba 2 jest większa od liczby 1')
 
