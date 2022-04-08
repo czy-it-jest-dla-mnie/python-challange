@@ -209,7 +209,7 @@ ile_cyfr=input()
 int_cyfr=int(ile_cyfr)
 lista_cyfr=[]
 
-if (len(lista_cyfr)) != int_cyfr: #warto dodać warunek, który uniemożliwi wykonywanie pętli w nieskończoność przy >int_cyfr
+if (len(lista_cyfr)) < int_cyfr:
   for _ in range(int_cyfr): 
       (lista_cyfr.append(random.randint(1,9)))
 print('Lista cyfr to:')
@@ -218,3 +218,7 @@ print('Ich suma wynosi:')
 print(sum(lista_cyfr))
 
 # 16. * Przeiteruj po wszystkich elementach stworzonej listy w pkt 15 i wypisz je na ekran podnosząc kazdą wartość do potęgi 2
+
+do_kwadratu = [cyfra ** 2 for cyfra in lista_cyfr]
+print('Po podniesieniu każdej liczby do potęgi drugiej uzyskamy:')
+print(do_kwadratu)
