@@ -66,8 +66,6 @@ for i in fruits:
 
 #13. Stwórz funkcję która wypisuje podany w parametrze tekst a następnie ją wywołaj
 
-welcome = "Hello World Function"
-
 def hello ():
     print("Hello World Function")
 hello()
