@@ -69,8 +69,6 @@ for i in fruits:
 welcome = "Hello World Function"
 
 def hello ():
-    print(welcome)
+    print("Hello World Function")
 hello()
-
-
 

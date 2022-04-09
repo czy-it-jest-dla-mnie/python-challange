@@ -155,34 +155,35 @@ print(len(lista_imion))
 print(liczba_1 * liczba_2)
 
 # 8. Sprawdź uzywając warunków if/else która zmienna: liczba_1 oraz liczba_2 jest większa i wypisz odpowiedni tekst na ekranie
+
+
 if liczba_1>liczba_2:
-    print("Liczba_1 jest większa od liczba_2")
+  print("Liczba_1 jest większa od liczba_2")
+elif liczba_1 < liczba_2:
+  print("Liczba_1 jest mniejsza od Liczba_2")
 else:
-    print("Liczba_2 jest większa od Liczba_1")
+  print("Liczba_1 jest równa Liczba_2")
 
 # 9. Sprawdź czy na liście imion znajduje się imię 'Jan' i wypisz odpowiedni komunikat
-if ["Jan"]:
-    print("Na liście jest imię Jan")
+if "Jan" in lista_imion:
+  print("Na liście jest imie Jan")
 else:
-    print("Na liscie nie ma imienia Jan")
+  print("Na liscie nie ma imienia Jan")
 
 # 10. Sprawdź czy na liście imion znajduje się imię 'Jan', jezeli tak to sprawdź czy liczba_2 jest większa od liczba_1, jezeli tak to wypisz na ekran drugie i trzecie imię z listy imion
-if ["Jan"]:
-    if liczba_2 > liczba_1:
-        print(lista_imion[1:3] )
-    else:
-        print("Liczba_2 mniejsza niż liczba_1")
-else:
-    print("Na liście nie ma imienia Jan")
+if "Jan" in lista_imion:
+  if liczba_2 > liczba_1:
+    print(lista_imion[1:3] )
 
 # 11. Zmień typ liczba_1 na string a następnie wypisz na ekran
 print(str(liczba_1))
 
 # 12. Zmień typ liczba_2 na float i dodaj do niej liczbę 24.5 i wypisz na ekran
+
 print(float(liczba_2) + 24.5)
 
 # 13. Wypisz tekst na ekran: 'Wartość liczby_2 to: [tutaj ma się pojawić wartość ze zmiennej]'
-print("Wartosc liczby_2 to:" f'{liczba_2}')
+print(f'Wartosc liczby_2 to: {liczba_2}')
 
 # 14. Sprawdź czy liczba_2 jest większa od liczba_1 LUB lista imion zawiera imię 'Zygmunt' i wypisz na ekranie odpowiedni komunikat.
 if liczba_2 > liczba_1 or lista_imion["Zygmunt"]:
